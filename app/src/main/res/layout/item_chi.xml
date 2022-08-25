@@ -27,7 +27,7 @@
         android:padding="5dp"
         android:text="Tiền ăn"
         android:textColor="@color/black"
-        android:textSize="24dp"
+        android:textSize="18dp"
         android:gravity="center"
         app:layout_constraintTop_toBottomOf="@+id/tv_date"
         app:layout_constraintLeft_toLeftOf="parent"/>
@@ -44,7 +44,7 @@
         android:drawableLeft="@drawable/ic_baseline_remove_money_24"
         android:layout_marginLeft="5dp"
         android:textColor="@color/black"
-        android:textSize="24dp"
+        android:textSize="18dp"
         app:layout_constraintLeft_toRightOf="@id/tv_name_khoan_chi"
         app:layout_constraintTop_toBottomOf="@+id/tv_date"
         />
@@ -56,7 +56,7 @@
         android:padding="5dp"
         android:text="@string/name"
         android:textColor="@color/black"
-        android:textSize="20dp"
+        android:textSize="16dp"
         android:layout_marginTop="15dp"
         tools:layout_editor_absoluteX="10dp"
         tools:layout_editor_absoluteY="128dp"

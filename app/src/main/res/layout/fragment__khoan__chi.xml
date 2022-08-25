@@ -25,6 +25,7 @@
         android:layout_marginRight="10dp"
         android:layout_marginBottom="10dp"
         android:scaleType="fitCenter"
+        android:backgroundTint="@color/light_blue_A400"
         android:src="@drawable/ic_baseline_add_24" />
 
 </RelativeLayout>

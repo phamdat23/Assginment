@@ -61,7 +61,6 @@ public class SinginFragment extends Fragment {
         btnSingin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Log.d("zzzzzzzzzzzzzzzzzzzzz", "onClick: " + list_ac);
                 if (etUserAdd.getEditText().getText().toString().equals("")) {
                     etUserAdd.setError("Tên tài khoản không được để trống");
                 } else {

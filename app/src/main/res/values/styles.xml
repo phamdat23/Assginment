@@ -40,7 +40,7 @@
 
     </style>
     <style name="text_thong_ke">
-        <item name="android:textSize">24dp</item>
+        <item name="android:textSize">20dp</item>
         <item name="android:textColor">@color/black</item>
         <item name="android:padding">5dp</item>
 

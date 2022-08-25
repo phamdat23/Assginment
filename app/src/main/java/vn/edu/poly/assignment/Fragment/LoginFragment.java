@@ -60,17 +60,22 @@ public class LoginFragment extends Fragment {
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                for (int i = 0; i < list_ac.size(); i++) {
-                    if (etUser.getEditText().getText().toString().trim().equals(list_ac.get(i).getUserName()) && etPass.getEditText().getText().toString().equals(list_ac.get(i).getPassWord())) {
-                        etUser.setError("");
-                        etPass.setError("");
+                if(!etUser.getEditText().getText().toString().isEmpty()&&! etPass.getEditText().getText().toString().isEmpty()){
+                    if(login()==true){
                         Intent intent = new Intent(getContext(), ManHinhChinhActivity.class);
                         startActivity(intent);
-                        break;
-                    } else {
-                        check(i);
+                    }else{
+                        checklogin();
+                    }
+                }else{
+                    if(etPass.getEditText().getText().toString().isEmpty()){
+                        etPass.setError("Mật khẩu không được để trống");
+                    }
+                    if(etUser.getEditText().toString().isEmpty()){
+                        etUser.setError("Tên tài khoản không được để trống");
                     }
                 }
+
             }
         });
         tvCreateAc.setOnClickListener(new View.OnClickListener() {
@@ -91,30 +96,26 @@ public class LoginFragment extends Fragment {
         });
 
     }
-    public  boolean check( int i){
+
+    public boolean login(){
         boolean a= true;
-        if(etUser.getEditText().getText().toString().equals("")){
-            etUser.setError("Hãy nhập tên tài khoản");
-            a=false;
-        }else if(!etUser.getEditText().getText().toString().equals(list_ac.get(i).getUserName())){
-            etUser.setError("Tên tài khoản không đúng");
-            a=false;
-        }else{
-            etUser.setError("");
-            a=true;
-        }
-        if(etPass.getEditText().getText().toString().equals("")){
-            etPass.setError("Mật khẩu không được để trống");
-            a=false;
-        }else if(!etPass.getEditText().getText().toString().equals(list_ac.get(i).getPassWord())){
-            etPass.setError("Mật khẩu không đúng");
-            a=false;
-        }else{
-            etPass.setError("");
-            a=true;
+        for (int i = 0; i < list_ac.size(); i++) {
+            if (etUser.getEditText().getText().toString().trim().equals(list_ac.get(i).getUserName()) && etPass.getEditText().getText().toString().equals(list_ac.get(i).getPassWord())) {
+                etUser.setError("");
+                etPass.setError("");
+                a = true;
+                break;
+            } else {
+                a = false;
+            }
         }
         return a;
     }
+    public  void checklogin(){
+        etPass.setError("Mật khẩu không đúng");
+        etUser.setError("Tên tài khoản không đúng");
+    }
+
 
 
 
