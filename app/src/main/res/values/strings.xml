@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Assignment</string>
+    <string name="user">Tên tài khoản</string>
+    <string name="pass">Mật khẩu</string>
+    <string name="repass">Nhập lại mật khẩu</string>
+    <string name="login">Đăng nhập</string>
+    <string name="singin">Đăng ký</string>
+    <string name="name">Phạm Tuấn Đạt</string>
+    <string name="masv">Masv : PH28194</string>
+    <string name="sdt">Số điện thoại : 0373065642</string>
+    <string name="email">Email : datptph28194@fpt.edu.vn</string>
+    <string name="nganh">Ngành : Lập trình máy tính</string>
+    <string name="update">Cập nhật</string>
+    <string name="insert">Thêm mới</string>
+    <string name="tenloaithu">Tên loại thu</string>
+    <string name="tenloaichi">Tên loại chi</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

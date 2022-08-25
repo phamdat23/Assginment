@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragment.Fragment_Loai_thu">
+
+   <androidx.recyclerview.widget.RecyclerView
+       android:id="@+id/rcv_list_loai_thu"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+       android:padding="5dp"
+       app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+
+   <com.google.android.material.floatingactionbutton.FloatingActionButton
+       android:layout_width="70dp"
+       android:layout_height="70dp"
+      android:id="@+id/btn_insert_loai_thu"
+       android:layout_gravity="bottom|end"
+       android:layout_alignParentBottom="true"
+       android:layout_alignParentRight="true"
+       android:src="@drawable/ic_baseline_add_24"
+       android:scaleType="fitCenter"
+       android:layout_marginBottom="10dp"
+       android:layout_marginRight="10dp"
+      />
+
+</RelativeLayout>

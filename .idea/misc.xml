@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/MOB202/Assignment/app/src/main/res/drawable/background_dialog_update.xml" value="0.1745" />
+        <entry key="..\:/MOB202/Assignment/app/src/main/res/drawable/exit.xml" value="0.1745" />
+        <entry key="..\:/MOB202/Assignment/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.1245" />
+        <entry key="..\:/MOB202/Assignment/app/src/main/res/drawable/ic_baseline_add_circle_outline_24.xml" value="0.1245" />
+        <entry key="..\:/MOB202/Assignment/app/src/main/res/drawable/ic_baseline_dehaze_24.xml" value="0.162" />
+        <entry key="..\:/MOB202/Assignment/app/src/main/res/drawable/ic_baseline_input_24.xml" value="0.162" />
+        <entry key="..\:/MOB202/Assignment/app/src/main/res/drawable/ic_baseline_output_24.xml" value="0.162" />
+        <entry key="..\:/MOB202/Assignment/app/src/main/res/drawable/shape_et.xml" value="0.1295" />
+        <entry key="..\:/MOB202/Assignment/app/src/main/res/drawable/shape_tv_profile.xml" value="0.162" />
+        <entry key="..\:/MOB202/Assignment/app/src/main/res/drawable/style_button.xml" value="0.162" />
+        <entry key="..\:/MOB202/Assignment/app/src/main/res/drawable/style_et.xml" value="0.162" />
+        <entry key="..\:/MOB202/Assignment/app/src/main/res/drawable/style_item_list.xml" value="0.1745" />
+        <entry key="..\:/MOB202/Assignment/app/src/main/res/drawable/thong_ke.xml" value="0.1745" />
+        <entry key="..\:/MOB202/Assignment/app/src/main/res/layout/activity_main.xml" value="0.17298578199052134" />
+        <entry key="..\:/MOB202/Assignment/app/src/main/res/layout/activity_man_hinh_chinh.xml" value="0.22" />
+        <entry key="..\:/MOB202/Assignment/app/src/main/res/layout/activity_man_hinh_cho.xml" value="0.12" />
+        <entry key="..\:/MOB202/Assignment/app/src/main/res/layout/dialog_chi_tiet_item.xml" value="0.22" />
+        <entry key="..\:/MOB202/Assignment/app/src/main/res/layout/dialog_insert_khoan_chi.xml" value="0.22" />
+        <entry key="..\:/MOB202/Assignment/app/src/main/res/layout/dialog_insert_khoan_thu.xml" value="0.22" />
+        <entry key="..\:/MOB202/Assignment/app/src/main/res/layout/dialog_insert_loai_chi.xml" value="0.22" />
+        <entry key="..\:/MOB202/Assignment/app/src/main/res/layout/dialog_insert_loai_thu.xml" value="0.22" />
+        <entry key="..\:/MOB202/Assignment/app/src/main/res/layout/dialog_update_khoan.xml" value="0.22" />
+        <entry key="..\:/MOB202/Assignment/app/src/main/res/layout/dialog_update_khoan_chi.xml" value="0.22" />
+        <entry key="..\:/MOB202/Assignment/app/src/main/res/layout/dialog_update_khoan_thu.xml" value="0.4466666666666667" />
+        <entry key="..\:/MOB202/Assignment/app/src/main/res/layout/dialog_update_loai_chi.xml" value="0.22" />
+        <entry key="..\:/MOB202/Assignment/app/src/main/res/layout/dialog_update_loai_thu.xml" value="0.22" />
+        <entry key="..\:/MOB202/Assignment/app/src/main/res/layout/fragemt_khoan_thu.xml" value="0.16666666666666666" />
+        <entry key="..\:/MOB202/Assignment/app/src/main/res/layout/fragment__khoan__chi.xml" value="0.25" />
+        <entry key="..\:/MOB202/Assignment/app/src/main/res/layout/fragment__loai_chi.xml" value="0.22" />
+        <entry key="..\:/MOB202/Assignment/app/src/main/res/layout/fragment__loai_thu.xml" value="0.22" />
+        <entry key="..\:/MOB202/Assignment/app/src/main/res/layout/fragment__profile.xml" value="0.22" />
+        <entry key="..\:/MOB202/Assignment/app/src/main/res/layout/fragment__thong__ke.xml" value="0.1272644927536232" />
+        <entry key="..\:/MOB202/Assignment/app/src/main/res/layout/fragment_dang_ky.xml" value="0.1272644927536232" />
+        <entry key="..\:/MOB202/Assignment/app/src/main/res/layout/fragment_thong__ke__chi.xml" value="0.3333333333333333" />
+        <entry key="..\:/MOB202/Assignment/app/src/main/res/layout/fragment_thong__ke__thu.xml" value="0.22" />
+        <entry key="..\:/MOB202/Assignment/app/src/main/res/layout/fragment_view_page.xml" value="0.1272644927536232" />
+        <entry key="..\:/MOB202/Assignment/app/src/main/res/layout/fragment_view_page2.xml" value="0.1272644927536232" />
+        <entry key="..\:/MOB202/Assignment/app/src/main/res/layout/fragment_view_page3.xml" value="0.1272644927536232" />
+        <entry key="..\:/MOB202/Assignment/app/src/main/res/layout/header_menu.xml" value="0.22" />
+        <entry key="..\:/MOB202/Assignment/app/src/main/res/layout/item_chi.xml" value="0.22" />
+        <entry key="..\:/MOB202/Assignment/app/src/main/res/layout/item_khoan_thu.xml" value="0.22" />
+        <entry key="..\:/MOB202/Assignment/app/src/main/res/layout/item_list.xml" value="0.22" />
+        <entry key="..\:/MOB202/Assignment/app/src/main/res/layout/item_loai_chi.xml" value="0.22" />
+        <entry key="..\:/MOB202/Assignment/app/src/main/res/layout/item_spinner.xml" value="0.3333333333333333" />
+        <entry key="..\:/MOB202/Assignment/app/src/main/res/layout/item_thong_ke.xml" value="0.22" />
+        <entry key="..\:/MOB202/Assignment/app/src/main/res/layout/item_thong_ke_chi.xml" value="0.14749893116716545" />
+        <entry key="..\:/MOB202/Assignment/app/src/main/res/layout/layout_dk.xml" value="0.22" />
+        <entry key="..\:/MOB202/Assignment/app/src/main/res/layout/layout_dn.xml" value="0.22" />
+        <entry key="..\:/MOB202/Assignment/app/src/main/res/layout/layout_doi_mk.xml" value="0.22" />
+        <entry key="..\:/MOB202/Assignment/app/src/main/res/layout/layout_thong_ke_thu.xml" value="0.1466438648995297" />
+        <entry key="..\:/MOB202/Assignment/app/src/main/res/layout/main_menu.xml" value="0.1272644927536232" />
+        <entry key="..\:/MOB202/Assignment/app/src/main/res/menu/menu_navication.xml" value="0.17864583333333334" />
+        <entry key="..\:/MOB202/Assignment/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.162" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
